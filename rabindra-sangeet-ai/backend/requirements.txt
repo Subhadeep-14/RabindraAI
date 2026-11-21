@@ -1,0 +1,10 @@
+
+fastapi
+uvicorn[standard]
+torch
+transformers
+scikit-learn
+joblib
+numpy
+scipy
+git+https://github.com/csebuetnlp/normalizer

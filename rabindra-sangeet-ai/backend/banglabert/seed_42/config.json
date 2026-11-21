@@ -1,0 +1,45 @@
+{
+  "add_cross_attention": false,
+  "architectures": [
+    "ElectraForSequenceClassification"
+  ],
+  "attention_probs_dropout_prob": 0.1,
+  "bos_token_id": null,
+  "classifier_dropout": null,
+  "dtype": "float32",
+  "embedding_size": 768,
+  "eos_token_id": null,
+  "hidden_act": "gelu",
+  "hidden_dropout_prob": 0.1,
+  "hidden_size": 768,
+  "id2label": {
+    "0": "\u09aa\u09c2\u099c\u09be",
+    "1": "\u09aa\u09cd\u09b0\u0995\u09c3\u09a4\u09bf",
+    "2": "\u09aa\u09cd\u09b0\u09c7\u09ae",
+    "3": "\u09ac\u09bf\u099a\u09bf\u09a4\u09cd\u09b0"
+  },
+  "initializer_range": 0.02,
+  "intermediate_size": 3072,
+  "is_decoder": false,
+  "label2id": {
+    "\u09aa\u09c2\u099c\u09be": 0,
+    "\u09aa\u09cd\u09b0\u0995\u09c3\u09a4\u09bf": 1,
+    "\u09aa\u09cd\u09b0\u09c7\u09ae": 2,
+    "\u09ac\u09bf\u099a\u09bf\u09a4\u09cd\u09b0": 3
+  },
+  "layer_norm_eps": 1e-12,
+  "max_position_embeddings": 512,
+  "model_type": "electra",
+  "num_attention_heads": 12,
+  "num_hidden_layers": 12,
+  "pad_token_id": 0,
+  "summary_activation": "gelu",
+  "summary_last_dropout": 0.1,
+  "summary_type": "first",
+  "summary_use_proj": true,
+  "tie_word_embeddings": true,
+  "transformers_version": "5.22.1",
+  "type_vocab_size": 2,
+  "use_cache": false,
+  "vocab_size": 32000
+}
